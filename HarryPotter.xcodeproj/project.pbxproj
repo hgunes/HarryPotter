@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BECF13EE2F4A3F5F00103D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF13ED2F4A3F5F00103D0D /* AppDelegate.swift */; };
-		BECF13F02F4A3F5F00103D0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF13EF2F4A3F5F00103D0D /* SceneDelegate.swift */; };
 		BECF13F22F4A3F5F00103D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF13F12F4A3F5F00103D0D /* ViewController.swift */; };
-		BECF13F52F4A3F5F00103D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECF13F32F4A3F5F00103D0D /* Main.storyboard */; };
 		BECF13F72F4A3F6D00103D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECF13F62F4A3F6D00103D0D /* Assets.xcassets */; };
 		BECF13FA2F4A3F6D00103D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECF13F82F4A3F6D00103D0D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		BECF13EA2F4A3F5F00103D0D /* HarryPotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECF13ED2F4A3F5F00103D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BECF13EF2F4A3F5F00103D0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BECF13F12F4A3F5F00103D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BECF13F42F4A3F5F00103D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BECF13F62F4A3F6D00103D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BECF13F92F4A3F6D00103D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BECF13FB2F4A3F6D00103D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				BECF13ED2F4A3F5F00103D0D /* AppDelegate.swift */,
-				BECF13EF2F4A3F5F00103D0D /* SceneDelegate.swift */,
 				BECF13F12F4A3F5F00103D0D /* ViewController.swift */,
-				BECF13F32F4A3F5F00103D0D /* Main.storyboard */,
 				BECF13F62F4A3F6D00103D0D /* Assets.xcassets */,
 				BECF13F82F4A3F6D00103D0D /* LaunchScreen.storyboard */,
 				BECF13FB2F4A3F6D00103D0D /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				BECF13FA2F4A3F6D00103D0D /* LaunchScreen.storyboard in Resources */,
 				BECF13F72F4A3F6D00103D0D /* Assets.xcassets in Resources */,
-				BECF13F52F4A3F5F00103D0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				BECF13F22F4A3F5F00103D0D /* ViewController.swift in Sources */,
 				BECF13EE2F4A3F5F00103D0D /* AppDelegate.swift in Sources */,
-				BECF13F02F4A3F5F00103D0D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BECF13F32F4A3F5F00103D0D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BECF13F42F4A3F5F00103D0D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BECF13F82F4A3F6D00103D0D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +276,6 @@
 				INFOPLIST_FILE = HarryPotter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +303,6 @@
 				INFOPLIST_FILE = HarryPotter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
