@@ -22,11 +22,13 @@ class TabBarController: UITabBarController {
         let charactersVC = CharactersVC()
         let housesVC = HousesVC()
         let spellsVC = SpellsVC()
+        let moviesVC = MoviesVC()
         
         let nav1 = UINavigationController(rootViewController: booksVC)
         let nav2 = UINavigationController(rootViewController: charactersVC)
         let nav3 = UINavigationController(rootViewController: housesVC)
         let nav4 = UINavigationController(rootViewController: spellsVC)
+        let nav5 = UINavigationController(rootViewController: moviesVC)
         
         nav1.tabBarItem = UITabBarItem(title: "Books",
                                        image: UIImage(systemName: "books.vertical.circle.fill"),
@@ -44,7 +46,11 @@ class TabBarController: UITabBarController {
                                        image: UIImage(systemName: "lasso.and.sparkles"),
                                        tag: 4)
         
-        let navBars = [nav1, nav2, nav3, nav4]
+        nav5.tabBarItem = UITabBarItem(title: "Movies",
+                                       image: UIImage(systemName: "popcorn.fill"),
+                                       tag: 5)
+        
+        let navBars = [nav1, nav2, nav3, nav4, nav5]
         
         for nav in navBars {
             nav.navigationBar.prefersLargeTitles = true
