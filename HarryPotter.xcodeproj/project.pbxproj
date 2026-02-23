@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE242EBD2F4CE428003244E0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE242EBC2F4CE428003244E0 /* Character.swift */; };
+		BE242EBF2F4CE451003244E0 /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE242EBE2F4CE451003244E0 /* Spell.swift */; };
+		BE242EC12F4CE468003244E0 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE242EC02F4CE468003244E0 /* Book.swift */; };
+		BE242EC32F4CE47C003244E0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE242EC22F4CE47C003244E0 /* Movie.swift */; };
+		BE242EC52F4CE497003244E0 /* Potion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE242EC42F4CE497003244E0 /* Potion.swift */; };
+		BE242EC72F4CE4B1003244E0 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE242EC62F4CE4B1003244E0 /* Creature.swift */; };
 		BE54CF782F4B8D3800F35150 /* MoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE54CF772F4B8D3800F35150 /* MoviesVC.swift */; };
 		BECF13EE2F4A3F5F00103D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF13ED2F4A3F5F00103D0D /* AppDelegate.swift */; };
 		BECF13F22F4A3F5F00103D0D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF13F12F4A3F5F00103D0D /* TabBarController.swift */; };
@@ -19,6 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE242EBC2F4CE428003244E0 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		BE242EBE2F4CE451003244E0 /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		BE242EC02F4CE468003244E0 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		BE242EC22F4CE47C003244E0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BE242EC42F4CE497003244E0 /* Potion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potion.swift; sourceTree = "<group>"; };
+		BE242EC62F4CE4B1003244E0 /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
 		BE54CF772F4B8D3800F35150 /* MoviesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVC.swift; sourceTree = "<group>"; };
 		BECF13EA2F4A3F5F00103D0D /* HarryPotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECF13ED2F4A3F5F00103D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +55,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE54CF792F4B8F2C00F35150 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE242EBC2F4CE428003244E0 /* Character.swift */,
+				BE242EBE2F4CE451003244E0 /* Spell.swift */,
+				BE242EC02F4CE468003244E0 /* Book.swift */,
+				BE242EC22F4CE47C003244E0 /* Movie.swift */,
+				BE242EC42F4CE497003244E0 /* Potion.swift */,
+				BE242EC62F4CE4B1003244E0 /* Creature.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BECF13E12F4A3F5F00103D0D = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +87,7 @@
 		BECF13EC2F4A3F5F00103D0D /* HarryPotter */ = {
 			isa = PBXGroup;
 			children = (
+				BE54CF792F4B8F2C00F35150 /* Models */,
 				BEF55DB12F4A4289000E00FF /* Views */,
 				BEF55DB02F4A4253000E00FF /* Controllers */,
 				BECF13ED2F4A3F5F00103D0D /* AppDelegate.swift */,
@@ -162,6 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE242EC72F4CE4B1003244E0 /* Creature.swift in Sources */,
+				BE242EC52F4CE497003244E0 /* Potion.swift in Sources */,
 				BECF13F22F4A3F5F00103D0D /* TabBarController.swift in Sources */,
 				BEF55DB52F4A434B000E00FF /* BooksVC.swift in Sources */,
 				BEF55DB72F4A438B000E00FF /* CharactersVC.swift in Sources */,
@@ -169,6 +197,10 @@
 				BECF13EE2F4A3F5F00103D0D /* AppDelegate.swift in Sources */,
 				BEF55DBB2F4A43E4000E00FF /* SpellsVC.swift in Sources */,
 				BE54CF782F4B8D3800F35150 /* MoviesVC.swift in Sources */,
+				BE242EBD2F4CE428003244E0 /* Character.swift in Sources */,
+				BE242EC12F4CE468003244E0 /* Book.swift in Sources */,
+				BE242EC32F4CE47C003244E0 /* Movie.swift in Sources */,
+				BE242EBF2F4CE451003244E0 /* Spell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
