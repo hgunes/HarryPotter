@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE1D90D02F4E343900D140DD /* HPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D90CF2F4E343800D140DD /* HPRequest.swift */; };
+		BE1D90D22F4E35F500D140DD /* HPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1D90D12F4E35F500D140DD /* HPService.swift */; };
 		BE242EBD2F4CE428003244E0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE242EBC2F4CE428003244E0 /* Character.swift */; };
 		BE242EBF2F4CE451003244E0 /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE242EBE2F4CE451003244E0 /* Spell.swift */; };
 		BE242EC12F4CE468003244E0 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE242EC02F4CE468003244E0 /* Book.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		BE1D90CF2F4E343800D140DD /* HPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPRequest.swift; sourceTree = "<group>"; };
+		BE1D90D12F4E35F500D140DD /* HPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPService.swift; sourceTree = "<group>"; };
 		BE242EBC2F4CE428003244E0 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		BE242EBE2F4CE451003244E0 /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
 		BE242EC02F4CE468003244E0 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				BE242EC92F4CE592003244E0 /* HPEndpoint.swift */,
 				BE1D90CF2F4E343800D140DD /* HPRequest.swift */,
+				BE1D90D12F4E35F500D140DD /* HPService.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				BE242EC72F4CE4B1003244E0 /* Creature.swift in Sources */,
 				BE1D90D02F4E343900D140DD /* HPRequest.swift in Sources */,
 				BE242EC52F4CE497003244E0 /* Potion.swift in Sources */,
+				BE1D90D22F4E35F500D140DD /* HPService.swift in Sources */,
 				BECF13F22F4A3F5F00103D0D /* TabBarController.swift in Sources */,
 				BEF55DB52F4A434B000E00FF /* BooksVC.swift in Sources */,
 				BEF55DB72F4A438B000E00FF /* CharactersVC.swift in Sources */,
