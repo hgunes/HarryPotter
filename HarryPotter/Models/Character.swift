@@ -9,7 +9,7 @@ import Foundation
 
 struct Character: Codable {
     let name: String?
-    let alternatenames: [String]?
+    let alternateNames: [String]?
     let species: String?
     let house: String?
     let dateOfBirth: String?
@@ -21,7 +21,7 @@ struct Character: Codable {
     
     enum CodingKeys: String, CodingKey {
         case name
-        case alternatenames = "alternate_names"
+        case alternateNames = "alternate_names"
         case species
         case house
         case dateOfBirth
